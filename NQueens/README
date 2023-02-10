@@ -1,0 +1,18 @@
+README Documentation for HW2
+
+Ethan Yeung
+CSE 101, Fall 2022
+
+Usage
+Navigate to the appropriate directory in terminal.
+Run the "make" command to compile the code.
+Execute the program by running the command "./nqueens <input_file> <output_file>".
+
+The program reads numbers in from the input file. The first number is the size of the chess board.
+The subsequent pairs of numbers are the coordinates of the pre-placed queens.
+The program then tries to find out the positions of "size" number of queens such that no queen attacks another.
+The coordinates of such queens are then outputted to the outfile. If there's not solution, "No solution" is printed.
+
+File description
+Makefile: contains the commands to compile the program
+nqueens.cpp: contains the main function to run the program
