@@ -3,6 +3,8 @@ README Documentation for HW2
 Ethan Yeung
 CSE 101, Fall 2022
 
+This project completes the task described in hw_nqueens.pdf.
+
 Usage
 Navigate to the appropriate directory in terminal.
 Run the "make" command to compile the code.
